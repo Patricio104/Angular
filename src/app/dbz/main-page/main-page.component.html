@@ -3,17 +3,9 @@
 
 <div class="row">
     <div class="col">
-        <h3>Personajes</h3>
-        <hr>
-        <!-- <ul>
-            <li>Krilin -700</li>
-            <li>Goku - 15,000</li>
-            <li>Veguete - 8,500</li>
-        </ul> -->
+        <app-personajes [personajes]="personajes">
 
-        <ul>
-            <li *ngFor="let item of personajes">{{item.nombre}} - {{item.poder | number}}</li>
-        </ul>
+        </app-personajes>
     </div>
 
     <div class="col">
